@@ -5,12 +5,12 @@ interface Props {
     | "primary"
     | "secondary"
     | "success"
-    | "Danger"
-    | "Warning"
-    | "Info"
-    | "Light"
-    | "Dark"
-    | "Link";
+    | "danger"
+    | "warning"
+    | "info"
+    | "light"
+    | "dark"
+    | "link";
   onClick: () => void;
 }
 export const Button = ({ children, onClick, color = "primary" }: Props) => {
