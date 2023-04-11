@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 interface Props {
-  items: {}[];
+  items: { name: String; disc: String }[];
   heading: String;
   onSelectItem: (itemname: String, itemDisc: String) => void;
 }

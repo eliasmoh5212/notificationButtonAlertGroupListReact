@@ -1,7 +1,6 @@
 import React from "react";
-import ReactNode from "react";
 interface Props {
-  children: ReactNode;
+  children: String;
   onClose: () => void;
 }
 const Alert = ({ children, onClose }: Props) => {
